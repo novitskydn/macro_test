@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="56c4e1a0-ce66-40dd-bf01-368936d4fe0c" name="dnnov@DESKTOP-7H4HBE0 2021-11-13 15:16:50" runUser="DESKTOP-7H4HBE0\dnnov" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-11-13T15:16:50.5784468+05:00" queuing="2021-11-13T15:16:50.5784480+05:00" start="2021-11-13T15:16:49.4110221+05:00" finish="2021-11-13T15:16:50.6091941+05:00" />
+  <TestSettings name="default" id="45a07c29-72c7-4a2b-914c-e363487ef2b5">
+    <Deployment runDeploymentRoot="dnnov_DESKTOP-7H4HBE0_2021-11-13_15_16_50" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="3d2885c4-4218-4c9e-b1f6-c9abdc61fc88" testId="f19bae37-a37e-06e3-a43d-7c329fcfff83" testName="CheckTimeJSON" computerName="DESKTOP-7H4HBE0" duration="00:00:00.0236360" startTime="2021-11-13T15:16:50.4162151+05:00" endTime="2021-11-13T15:16:50.4398488+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d2885c4-4218-4c9e-b1f6-c9abdc61fc88">
+      <Output>
+        <ErrorInfo>
+          <Message>  Expected: 2021-11-13 10:16:50 +/- 00:00:15&#xD;
+  But was:  2021-11-13 15:16:50.4298955&#xD;
+  Off by:   05:00:00.4298955&#xD;
+</Message>
+          <StackTrace>   at MacroscopTests.MacroscopHttpApiTests.CheckTimeJSON() in C:\Users\dnnov\source\repos\TestProject1\TestProject1\MacroscopHttpApiTests.cs:line 61&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2dbb2585-4984-4819-8e39-d033e0726674" testId="b8ab63d3-54e6-3abc-9368-0511ade5c666" testName="CheckTimeXML" computerName="DESKTOP-7H4HBE0" duration="00:00:00.0067960" startTime="2021-11-13T15:16:50.4398966+05:00" endTime="2021-11-13T15:16:50.4466923+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2dbb2585-4984-4819-8e39-d033e0726674">
+      <Output>
+        <ErrorInfo>
+          <Message>  Expected: 2021-11-13 10:16:50 +/- 00:00:15&#xD;
+  But was:  2021-11-13 15:16:50.4457561&#xD;
+  Off by:   05:00:00.4457561&#xD;
+</Message>
+          <StackTrace>   at MacroscopTests.MacroscopHttpApiTests.CheckTimeXML() in C:\Users\dnnov\source\repos\TestProject1\TestProject1\MacroscopHttpApiTests.cs:line 37&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a3e6ebcb-09bc-4b6d-a654-5447f7bb9ead" testId="70f3473f-95dc-e59f-1be8-672602511ebd" testName="CheckingNumberOfChannels" computerName="DESKTOP-7H4HBE0" duration="00:00:00.2105440" startTime="2021-11-13T15:16:50.2039349+05:00" endTime="2021-11-13T15:16:50.4143563+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3e6ebcb-09bc-4b6d-a654-5447f7bb9ead">
+      <Output>
+        <ErrorInfo>
+          <Message>  Expected: greater than or equal to 6&#xD;
+  But was:  5&#xD;
+</Message>
+          <StackTrace>   at MacroscopTests.MacroscopHttpApiTests.CheckingNumberOfChannels() in C:\Users\dnnov\source\repos\TestProject1\TestProject1\MacroscopHttpApiTests.cs:line 82&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CheckingNumberOfChannels" storage="c:\users\dnnov\source\repos\testproject1\testproject1\bin\debug\net5.0\macroscoptests.dll" id="70f3473f-95dc-e59f-1be8-672602511ebd">
+      <Execution id="a3e6ebcb-09bc-4b6d-a654-5447f7bb9ead" />
+      <TestMethod codeBase="C:\Users\dnnov\source\repos\TestProject1\TestProject1\bin\Debug\net5.0\MacroscopTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="MacroscopTests.MacroscopHttpApiTests" name="CheckingNumberOfChannels" />
+    </UnitTest>
+    <UnitTest name="CheckTimeXML" storage="c:\users\dnnov\source\repos\testproject1\testproject1\bin\debug\net5.0\macroscoptests.dll" id="b8ab63d3-54e6-3abc-9368-0511ade5c666">
+      <Execution id="2dbb2585-4984-4819-8e39-d033e0726674" />
+      <TestMethod codeBase="C:\Users\dnnov\source\repos\TestProject1\TestProject1\bin\Debug\net5.0\MacroscopTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="MacroscopTests.MacroscopHttpApiTests" name="CheckTimeXML" />
+    </UnitTest>
+    <UnitTest name="CheckTimeJSON" storage="c:\users\dnnov\source\repos\testproject1\testproject1\bin\debug\net5.0\macroscoptests.dll" id="f19bae37-a37e-06e3-a43d-7c329fcfff83">
+      <Execution id="3d2885c4-4218-4c9e-b1f6-c9abdc61fc88" />
+      <TestMethod codeBase="C:\Users\dnnov\source\repos\TestProject1\TestProject1\bin\Debug\net5.0\MacroscopTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="MacroscopTests.MacroscopHttpApiTests" name="CheckTimeJSON" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f19bae37-a37e-06e3-a43d-7c329fcfff83" executionId="3d2885c4-4218-4c9e-b1f6-c9abdc61fc88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8ab63d3-54e6-3abc-9368-0511ade5c666" executionId="2dbb2585-4984-4819-8e39-d033e0726674" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70f3473f-95dc-e59f-1be8-672602511ebd" executionId="a3e6ebcb-09bc-4b6d-a654-5447f7bb9ead" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Список результатов" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="0" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.17.0.0: Test execution started&#xD;
+Running all tests in C:\Users\dnnov\source\repos\TestProject1\TestProject1\bin\Debug\net5.0\MacroscopTests.dll&#xD;
+   NUnit3TestExecutor discovered 3 of 3 NUnit test cases&#xD;
+NUnit Adapter 3.17.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
